@@ -1,0 +1,42 @@
+{
+  "name": "careerreadyai",
+  "version": "1.0.0",
+  "description": "A Final Year Project, Which will help users in careers, by preparing them for interviews by taking mock interview, and much more...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "fyp"
+  ],
+  "author": "Muhammad Naeem Brohi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@livekit/agents": "^0.4.6",
+    "@livekit/agents-plugin-openai": "^0.6.1",
+    "@livekit/protocol": "^1.29.3",
+    "bcrypt": "^5.1.1",
+    "bson": "^6.8.0",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "livekit-server-sdk": "^2.9.3",
+    "mongoose": "^8.5.3",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.17.0",
+    "openai": "^4.56.0",
+    "pdf2json": "^3.1.4",
+    "pdfjs-dist": "^4.5.136"
+  }
+}
